@@ -11,9 +11,9 @@ if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").textContent = "Draw!";
 }
 
-var randomImg = "The-dice-game/dice" + randomNumber1 + ".png";
+var randomImg = "dice" + randomNumber1 + ".png";
 
-var randomImg2 = "The-dice-game/dice" + randomNumber2 + ".png";
+var randomImg2 = "dice" + randomNumber2 + ".png";
 
 var image1 = document.querySelectorAll("img")[0].setAttribute("src", randomImg);
 
